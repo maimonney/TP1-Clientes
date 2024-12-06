@@ -2,7 +2,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { signInWithEmailAndPassword, updateProfile, signOut, createUserWithEmailAndPassword } from "firebase/auth";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth, db } from "./firebase"; 
-import { getUserProfileById, updateUserProfile } from "./userPerfil";
+import { getUserProfileById, updateUserProfile } from "./UserPerfil";
 
 let loggedUser = {
     id: null,
